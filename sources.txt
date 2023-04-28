@@ -1,0 +1,8 @@
+**cosHnet**: https://arxiv.org/pdf/2208.06882.pdf
+**CSigmoid**: https://github.com/Significant-Gravitas/Auto-GPT.git
+**bio cvnn**: https://link.springer.com/chapter/10.1007/978-3-031-08333-4_30 
+**oscillation**: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8181409/
+**Theory of complex valued Neural ** https://arxiv.org/pdf/2302.08286.pdf / https://arxiv.org/abs/2302.08286
+** seismic ** https://arxiv.org/pdf/1905.12321.pdf / https://arxiv.org/abs/1905.12321
+**GMRA preprocessing** https://arxiv.org/pdf/1105.4924.pdf
+**phase congruency**: https://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/OWENS/LECT7/node2.html#:~:text=The%20phase%20congruency%20model%20is,frequency%20components%20in%20a%20signal
