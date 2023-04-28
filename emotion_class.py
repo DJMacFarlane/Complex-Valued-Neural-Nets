@@ -103,6 +103,7 @@ sns.heatmap(confusion_mtx,
             annot=True, fmt='g')
 plt.xlabel('Prediction')
 plt.ylabel('Label')
+plt.title('Emotion Classification Confusion Matrix')
 plt.savefig('./figs/confusion_matrix.png')
 
 

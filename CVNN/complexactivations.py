@@ -8,6 +8,12 @@ def abs_softmax(x):
 def real_softmax(x):
     return tf.math.softmax(tf.math.real(x))
 
+def imag_softmax(x):
+    return tf.math.softmax(tf.math.imag(x))
+
+def polar_softmax(x):
+    return tf.math.softmax(tf.math.angle(x))
+
 def cmplx_rrelu(x):
     # Take relu of just the real part keeping the imaginary part the same
     return tf.complex(tf.nn.relu(tf.math.real(x)), tf.math.imag(x))

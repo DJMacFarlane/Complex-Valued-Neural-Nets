@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.7)  28 APR 2023 01:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.7)  28 APR 2023 03:33
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1108,9 +1108,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 68
-.
 
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 70
+.
 (/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
@@ -1119,129 +1123,118 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 80.
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
-
- []
-
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 81.
 [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
 /enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super
 -t1.enc}]
-<../figs/combined.png, id=59, 462.528pt x 346.896pt>
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+[2]
+<../figs/combined.png, id=89, 462.528pt x 346.896pt>
 File: ../figs/combined.png Graphic file (type png)
 <use ../figs/combined.png>
-Package pdftex.def Info: ../figs/combined.png  used on input line 92.
+Package pdftex.def Info: ../figs/combined.png  used on input line 129.
 (pdftex.def)             Requested size: 238.49341pt x 178.8731pt.
-<../figs/fashionmnist.png, id=62, 462.528pt x 346.896pt>
-File: ../figs/fashionmnist.png Graphic file (type png)
-<use ../figs/fashionmnist.png>
-Package pdftex.def Info: ../figs/fashionmnist.png  used on input line 100.
-(pdftex.def)             Requested size: 238.49341pt x 178.8731pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2
+ [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.103 
-       <../figs/combined.png>]
-<../figs/cats_dogs_accuracy.png, id=72, 462.528pt x 346.896pt>
+l.132 \newpage
+               <../figs/combined.png>]
+<../figs/fashionmnist.png, id=102, 462.528pt x 346.896pt>
+File: ../figs/fashionmnist.png Graphic file (type png)
+<use ../figs/fashionmnist.png>
+Package pdftex.def Info: ../figs/fashionmnist.png  used on input line 137.
+(pdftex.def)             Requested size: 238.49341pt x 178.8731pt.
+<../figs/cats_dogs_accuracy.png, id=104, 462.528pt x 346.896pt>
 File: ../figs/cats_dogs_accuracy.png Graphic file (type png)
 <use ../figs/cats_dogs_accuracy.png>
-Package pdftex.def Info: ../figs/cats_dogs_accuracy.png  used on input line 111
+Package pdftex.def Info: ../figs/cats_dogs_accuracy.png  used on input line 148
 .
 (pdftex.def)             Requested size: 238.49341pt x 178.8731pt.
-<../figs/emotion_accuracy.png, id=74, 462.528pt x 346.896pt>
-File: ../figs/emotion_accuracy.png Graphic file (type png)
-<use ../figs/emotion_accuracy.png>
-Package pdftex.def Info: ../figs/emotion_accuracy.png  used on input line 119.
-(pdftex.def)             Requested size: 238.49341pt x 178.8731pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3
+ [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.122 
-      
+l.151 \newpage
+              
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.122 
-       <../figs/fashionmnist.png> <../figs/cats_dogs_accuracy.png>]
-<../figs/confusion_matrix.png, id=84, 722.7pt x 578.16pt>
+l.151 \newpage
+               <../figs/fashionmnist.png> <../figs/cats_dogs_accuracy.png>]
+<../figs/emotion_accuracy.png, id=115, 462.528pt x 346.896pt>
+File: ../figs/emotion_accuracy.png Graphic file (type png)
+<use ../figs/emotion_accuracy.png>
+Package pdftex.def Info: ../figs/emotion_accuracy.png  used on input line 157.
+(pdftex.def)             Requested size: 238.49341pt x 178.8731pt.
+<../figs/confusion_matrix.png, id=116, 722.7pt x 578.16pt>
 File: ../figs/confusion_matrix.png Graphic file (type png)
 <use ../figs/confusion_matrix.png>
-Package pdftex.def Info: ../figs/confusion_matrix.png  used on input line 125.
+Package pdftex.def Info: ../figs/confusion_matrix.png  used on input line 163.
 (pdftex.def)             Requested size: 238.49341pt x 190.79338pt.
- [4
+
+[5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.131 \newpage
+l.167 \newpage
               
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.131 \newpage
+l.167 \newpage
                <../figs/emotion_accuracy.png> <../figs/confusion_matrix.png>]
-[5] (./Project.aux)
-
-LaTeX Warning: There were undefined references.
-
+[6] [7] (./Project.aux)
 Package rerunfilecheck Info: File `Project.out' has not changed.
-(rerunfilecheck)             Checksum: A0FFD1A37731A224733BFD575EEB2399;1055.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+(rerunfilecheck)             Checksum: B2894F4DB1B96961DBA93C09E2C76C8A;1350.
 Package logreq Info: Writing requests to 'Project.run.xml'.
 \openout1 = `Project.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33141 strings out of 476025
- 632583 string characters out of 5796533
- 1867388 words of memory out of 5000000
- 52891 multiletter control sequences out of 15000+600000
- 560798 words of font info for 174 fonts, out of 8000000 for 9000
+ 33221 strings out of 476025
+ 633262 string characters out of 5796533
+ 1869388 words of memory out of 5000000
+ 52898 multiletter control sequences out of 15000+600000
+ 563110 words of font info for 210 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,8n,104p,1004b,1768s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/t
-exmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type
-1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
-></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist
-/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Project.pdf (5 pages, 250485 bytes).
+ 102i,8n,104p,1004b,1767s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
+texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/font
+s/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/ut
+mb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/t
+exmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/u
+rw/times/utmri8a.pfb>
+Output written on Project.pdf (7 pages, 270288 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 52334 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 52358 words of extra memory for PDF output out of 61914 (max. 10000000)
 

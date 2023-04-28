@@ -65,6 +65,8 @@
 
 
 \begin{abstract}
+  Popular neural network frameworks like PyTorch and Keras with TensorFlow provide limited support for CVNNs. In this paper, we present an implementation of CVNNs using custom layers and activation functions in Keras with TensorFlow, taking advantage of TensorFlow's support for complex tensors. We evaluate the implementation on several benchmark datasets, including MNIST, Fashion MNIST, and audio classification tasks. Our experiments show that CVNNs can achieve competitive performance with real-valued neural networks, while offering the potential for improved efficiency and applicability in domains where complex values are prevalent. \\ \\
+  \textbf{GitHub:}\\ \url{https://github.com/DJMacFarlane/Complex-Valued-Neural-Nets}
 \end{abstract}
 \section{Introduction}
 Complex valued neural networks (CVNNs) offer several potential advantages over real valued neural networks (RVNNs). By incorporating both phase and magnitude in each value, CVNNs allow for a richer representation of data. This increased information content in each input and parameter can lead to a reduction in the number of parameters, subsequently lowering the likelihood of exploding and vanishing gradients while also reducing the need for regularization. Furthermore, some types of data are naturally suited for representation using complex numbers.
@@ -73,16 +75,51 @@ CVNNs hold great promise in domains where complex values are already extensively
 
 Despite these advantages, many popular neural network frameworks, such as PyTorch and Keras with TensorFlow, offer limited support for complex valued neural networks by default. Nevertheless, TensorFlow does provide support for complex tensors, which enables the implementation of CVNNs by defining custom layers. In this project, we take advantage of this functionality to explore the potential of CVNNs further.
 
-
 \section{Related Works}
 \begin{center}\textbf{\fullcite{CVNN_book}}\end{center}
-This book provides an overview of complex valued neural networks and some applications. Much of the implementation is based on concepts from this author's works.\\ \\
+This book provides an overview of complex valued neural networks and some applications. Much of the implementation is based on concepts from this author's works.\\
 \begin{center}\textbf{\fullcite{ko2022coshnet}}\end{center}
 In this paper they explore shearlets and CVNNs in image processing to reduce the need for convolution, increase efficiency and improve performance. This is an excellent demonstration that CVNNs are worth investigating. \\ \\
 \begin{center}\textbf{\fullcite{biocvnn}}\end{center}
 The primary motivation for this project was the potential of CVNNs to more accurately approximate biological networks. The paper investigates CVNNs, which are designed to be more similar to biological neural networks than their real-valued neural network (RVNN) counterparts, demonstrating superior performance in certain tasks. However, the paper's main drawback lies in its reliance on gradient descent as a training method, as this is likely an unrealistic learning mechanism for biological systems \citep{hintonforwardforward}.
 
 \section{Description}
+In order to implement complex valued neural networks we defined the following custom layers and activations for keras. Keras and TensorFlow do support Wirtinger derivatives so there is no need to modify the backpropagation methods. \\
+\subsection{Layers}
+\begin{enumerate}
+  \item \textbf{ComplexDense}: A dense layer that takes complex or real inputs and outputs complex outputs.
+
+  \item \textbf{ComplexConv2D}: A 2D complex convolution layer that takes complex or real inputs and outputs complex outputs.
+
+  \item \textbf{ComplexConv1D}: A 1D complex convolution layer that takes complex or real inputs and outputs complex outputs.
+
+  \item \textbf{ComplexDropout}: A complex dropout layer that takes complex inputs and performs dropout separately on the real and imaginary parts.
+
+  \item \textbf{ComplexMaxPool2D}: A complex max-pooling layer that takes complex inputs and outputs complex outputs.
+
+  \item \textbf{ComplexAvgPool2D}: A complex average-pooling layer that takes complex inputs and outputs complex outputs.
+
+  \item \textbf{ComplexLayerNormalization}: A complex layer normalization layer that takes complex inputs and outputs complex outputs.
+
+  \item \textbf{ComplexUpSampling2D}: A complex upsampling layer that takes complex inputs and outputs complex outputs.
+\end{enumerate}
+
+\subsection{Activations}
+\begin{enumerate}
+  \item \textbf{abs\_softmax(x)}: This function computes the softmax of the absolute values of the input tensor $x$. The softmax function is applied to the absolute values of the elements, normalizing them to create a probability distribution.
+
+  \item \textbf{real\_softmax(x)}: This function computes the softmax of the real parts of the input tensor $x$, which has complex elements. The softmax function is applied to the real parts, normalizing them to create a probability distribution.
+
+  \item \textbf{imag\_softmax(x)}: This function computes the softmax of the imaginary parts of the input tensor $x$, which has complex elements. The softmax function is applied to the imaginary parts, normalizing them to create a probability distribution.
+
+  \item \textbf{polar\_softmax(x)}: This function computes the softmax of the angles (phases) of the input tensor $x$, which has complex elements. The softmax function is applied to the angles, normalizing them to create a probability distribution.
+
+  \item \textbf{cmplx\_rrelu(x)}: This function applies the Rectified Linear Unit (ReLU) activation function only to the real parts of the input tensor $x$, which has complex elements. The imaginary parts are left unchanged.
+
+  \item \textbf{cmplx\_crelu(x)}: This function applies the Rectified Linear Unit (ReLU) activation function to both the real and imaginary parts of the input tensor $x$, which has complex elements.
+
+  \item \textbf{polar\_relu(x)}: This function applies the Rectified Linear Unit (ReLU) activation function to the magnitudes (absolute values) of the input tensor $x$, which has complex elements. The phases (angles) are left unchanged.
+\end{enumerate}
 
 \section{Experiments}
 \subsection{MNIST}
@@ -92,7 +129,7 @@ To test the implementation we do a trial run on MNIST data set to verify the imp
   \includegraphics[width=0.6\textwidth]{../figs/combined.png}
   \caption{As expected we get similar performance.}
 \end{figure}
-
+\newpage
 \subsection{Fashion MNIST}
 We also tested training on the 2D fourier transform of Fashion MNIST data set \citep{fashionmnist}
 \begin{figure}[H]
@@ -111,6 +148,7 @@ After training on images we downloaded a simple dataset of cat sounds vs dog sou
   \includegraphics[width=0.6\textwidth]{../figs/cats_dogs_accuracy.png}
   \caption{Given the small size of the data set we overfit quickly.}
 \end{figure}
+\newpage
 \subsubsection{Emotion Classification}
 Using a subset of the Toronto emotional speech set \citep{TESS} we trained a complex valued neural network on the spectrogram (complex valued) to categorize audio into classes based on predicted emotion of the speaker.
 
@@ -126,7 +164,15 @@ Using a subset of the Toronto emotional speech set \citep{TESS} we trained a com
   \title{Confusion Matrix}
   \caption{The model sometimes confused happy with pleasant surprise.}
 \end{figure}
+\newpage
+\section{Discussion}
+Our experiments on various datasets, including MNIST, Fashion MNIST, and audio classification tasks, demonstrate the potential of CVNNs as a viable alternative to traditional RVNNs. In the MNIST experiment, we observed that the CVNNs with fewer parameters performed competitively with the RVNNs. Furthermore, when applying CVNNs directly to the 2D Fourier transform of the Fashion MNIST dataset, we achieved satisfactory results, showcasing the ability of CVNNs to handle complex input data effectively.
 
+In the audio classification tasks, we tested CVNNs on both cat and dog sounds and emotion classification using a subset of the Toronto emotional speech set. In both cases, we observed rapid convergence and competitive performance. However, overfitting occurred quickly in the cat and dog audio dataset due to its small size. In the emotion classification task, we got excellent results.
+
+The results of our experiments indicate that CVNNs can achieve competitive performance with RVNNs and, in some cases, provide improved efficiency and applicability in domains where complex values are prevalent. By implementing custom layers and activation functions in Keras with TensorFlow, we have taken advantage of TensorFlow's support for complex tensors, allowing us to explore CVNNs more in the future. Though we did not have enough time to experiment with complex valued outputs or complex transormers.
+
+Future work on CVNNs may focus on optimizing the architecture, incorporating more sophisticated regularization techniques, and exploring additional applications in areas such as quantum computing, signal processing, and image processing. Additionally, it would be interesting to investigate the potential of CVNNs in approximating biological networks more accurately, as alluded to in the Biologically Inspired Complex-Valued Neural Networks paper \citep{biocvnn}. As complex numbers may allow for easier encoding of frequency and phase of spiking patterns of neurons.
 
 \newpage
 \printbibliography

@@ -293,7 +293,13 @@ class ComplexLayerNormalization(tf.keras.layers.Layer):
         std = tf.math.sqrt(variance + self.epsilon)
         outputs = (inputs - mean) / std
 
-        outputs = outputs * self.gamma + self.beta
+        outputs_real = tf.math.real(outputs)
+        outputs_imag = tf.math.imag(outputs)
+
+        outputs_real = outputs_real * self.gamma + self.beta
+        outputs_imag = outputs_imag * self.gamma + self.beta
+
+        outputs = tf.complex(outputs_real, outputs_imag)
 
         return outputs
 
