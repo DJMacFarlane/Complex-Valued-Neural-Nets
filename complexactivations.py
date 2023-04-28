@@ -19,3 +19,4 @@ def cmplx_crelu(x):
 def polar_relu(x):
     # Take relu of the magnitude and keep the phase the same
     return tf.complex(tf.nn.relu(tf.math.abs(x)), tf.math.angle(x))
+

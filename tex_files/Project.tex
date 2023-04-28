@@ -22,6 +22,7 @@
 \usepackage{hyperref}       % hyperlinks
 \usepackage{url}            % simple URL typesetting
 \usepackage{tikz}
+\usepackage{float}
 
 
 % I recommend the biblatex package.
@@ -85,11 +86,27 @@ The primary motivation for this project was the potential of CVNNs to more accur
 \section{Experiments}
 \subsection{MNIST}
 To test the implementation we do a trial run on MNIST data set to verify the implementation is functioning. For the real neural network we use 32 filter 4 by 4 kernels with softmax output layer. The complex network has 16 filters of 4 by 4 kernels to halve the number of parameters. CVNNs do not offer much benefit in a simple case like this, but is a convenient test set.
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[width=0.6\textwidth]{../figs/combined.png}
   \caption{As expected we get similar performance.}
 \end{figure}
 
-%\printbibliography
+\subsection{Fashion MNIST}
+We also tested training on the 2D fourier transform of Fashion MNIST data set \citep{fashionmnist}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{../figs/fashionmnist.png}
+  \caption{For complex case we used fourier transform values directly.}
+\end{figure}
+
+\subsection{Dog versus Cat Audio}
+After training on images we downloaded a simple dataset of cat sounds vs dog sounds using complex valued outputs of \texttt{tf.signal.stft(waveform)} as inputs to a convolutional neural network.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{../figs/cats_dogs_accuracy.png}
+  \caption{Given the small size of the data set we overfit quickly.}
+\end{figure}
+\newpage
+\printbibliography
 \end{document}

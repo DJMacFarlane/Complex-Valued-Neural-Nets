@@ -119,6 +119,54 @@
       \verb 2208.06882
       \endverb
     \endentry
+    \entry{fashionmnist}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1af11a48cd2fa4be0cc93269e719b54c}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Han},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c17107e356e9e329a5b82ae2f7cd441}{%
+           family={Rasul},
+           familyi={R\bibinitperiod},
+           given={Kashif},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=626b3b250f5889797be5d59aab9e0ac5}{%
+           family={Vollgraf},
+           familyi={V\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5290b4700ff446de9ce062ea732ebd9a}
+      \strng{fullhash}{5290b4700ff446de9ce062ea732ebd9a}
+      \strng{bibnamehash}{5290b4700ff446de9ce062ea732ebd9a}
+      \strng{authorbibnamehash}{5290b4700ff446de9ce062ea732ebd9a}
+      \strng{authornamehash}{5290b4700ff446de9ce062ea732ebd9a}
+      \strng{authorfullhash}{5290b4700ff446de9ce062ea732ebd9a}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms}
+      \field{volume}{abs/1708.07747}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1708.07747
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1708.07747
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1708.07747
+      \endverb
+    \endentry
     \entry{biocvnn}{misc}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=96a3adaac44c49b10cb4e65839ff3576}{%

@@ -267,3 +267,57 @@ class ComplexAvgPool2D(tf.keras.layers.Layer):
         return outputs
 
 
+class ComplexLayerNormalization(tf.keras.layers.Layer):
+    """
+    A complex layer normalization layer that takes complex inputs and outputs complex outputs.
+    """
+    def __init__(self, axis=-1, epsilon=1e-12, **kwargs):
+        super(ComplexLayerNormalization, self).__init__(**kwargs)
+        self.axis = axis
+        self.epsilon = epsilon
+
+    def build(self, input_shape):
+        self.gamma = self.add_weight(shape=(input_shape[-1],),
+                                     initializer=tf.ones_initializer(),
+                                     trainable=True)
+        self.beta = self.add_weight(shape=(input_shape[-1],),
+                                    initializer=tf.zeros_initializer(),
+                                    trainable=True)
+
+    def call(self, inputs):
+        if inputs.dtype in [tf.float16, tf.float32, tf.float64]:
+            inputs = tf.complex(inputs, tf.zeros_like(inputs))
+
+        mean = tf.math.reduce_mean(inputs, axis=self.axis, keepdims=True)
+        variance = tf.math.reduce_mean(tf.math.square(inputs - mean), axis=self.axis, keepdims=True)
+        std = tf.math.sqrt(variance + self.epsilon)
+        outputs = (inputs - mean) / std
+
+        outputs = outputs * self.gamma + self.beta
+
+        return outputs
+
+
+class ComplexUpSampling2D(tf.keras.layers.Layer):
+    """
+    A complex upsampling layer that takes complex inputs and outputs complex outputs.
+    """
+    def __init__(self, size=(2, 2), **kwargs):
+        super(ComplexUpSampling2D, self).__init__(**kwargs)
+        self.size = size
+
+    def call(self, inputs):
+        if inputs.dtype in [tf.float16, tf.float32, tf.float64]:
+            inputs = tf.complex(inputs, tf.zeros_like(inputs))
+
+        # Calculate the real and imaginary parts of the inputs
+        real = tf.math.real(inputs)
+        imag = tf.math.imag(inputs)
+
+        # Upsample the real and imaginary parts
+        real_upsampled = tf.keras.layers.UpSampling2D(size=self.size)(real)
+        imag_upsampled = tf.keras.layers.UpSampling2D(size=self.size)(imag)
+
+        outputs = tf.complex(real_upsampled, imag_upsampled)
+
+        return outputs

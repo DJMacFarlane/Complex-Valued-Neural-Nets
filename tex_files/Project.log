@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.7)  27 APR 2023 19:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.7)  28 APR 2023 00:13
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -625,59 +625,67 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 topaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
+))) (/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count316
+\float@exts=\toks38
+\float@box=\box64
+\@float@everytoks=\toks39
+\@floatcapt=\box65
+)
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 
 (/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count316
+\lrq@indent=\count317
 
 (/usr/share/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count317
-\c@listtotal=\count318
-\c@listcount=\count319
-\c@liststart=\count320
-\c@liststop=\count321
-\c@citecount=\count322
-\c@citetotal=\count323
-\c@multicitecount=\count324
-\c@multicitetotal=\count325
-\c@instcount=\count326
-\c@maxnames=\count327
-\c@minnames=\count328
-\c@maxitems=\count329
-\c@minitems=\count330
-\c@citecounter=\count331
-\c@maxcitecounter=\count332
-\c@savedcitecounter=\count333
-\c@uniquelist=\count334
-\c@uniquename=\count335
-\c@refsection=\count336
-\c@refsegment=\count337
-\c@maxextratitle=\count338
-\c@maxextratitleyear=\count339
-\c@maxextraname=\count340
-\c@maxextradate=\count341
-\c@maxextraalpha=\count342
-\c@abbrvpenalty=\count343
-\c@highnamepenalty=\count344
-\c@lownamepenalty=\count345
-\c@maxparens=\count346
-\c@parenlevel=\count347
-\blx@tempcnta=\count348
-\blx@tempcntb=\count349
-\blx@tempcntc=\count350
-\c@blx@maxsection=\count351
-\blx@maxsegment@0=\count352
-\blx@notetype=\count353
-\blx@parenlevel@text=\count354
-\blx@parenlevel@foot=\count355
-\blx@sectionciteorder@0=\count356
-\blx@sectionciteorderinternal@0=\count357
-\blx@entrysetcounter=\count358
-\blx@biblioinstance=\count359
+\c@tabx@nest=\count318
+\c@listtotal=\count319
+\c@listcount=\count320
+\c@liststart=\count321
+\c@liststop=\count322
+\c@citecount=\count323
+\c@citetotal=\count324
+\c@multicitecount=\count325
+\c@multicitetotal=\count326
+\c@instcount=\count327
+\c@maxnames=\count328
+\c@minnames=\count329
+\c@maxitems=\count330
+\c@minitems=\count331
+\c@citecounter=\count332
+\c@maxcitecounter=\count333
+\c@savedcitecounter=\count334
+\c@uniquelist=\count335
+\c@uniquename=\count336
+\c@refsection=\count337
+\c@refsegment=\count338
+\c@maxextratitle=\count339
+\c@maxextratitleyear=\count340
+\c@maxextraname=\count341
+\c@maxextradate=\count342
+\c@maxextraalpha=\count343
+\c@abbrvpenalty=\count344
+\c@highnamepenalty=\count345
+\c@lownamepenalty=\count346
+\c@maxparens=\count347
+\c@parenlevel=\count348
+\blx@tempcnta=\count349
+\blx@tempcntb=\count350
+\blx@tempcntc=\count351
+\c@blx@maxsection=\count352
+\blx@maxsegment@0=\count353
+\blx@notetype=\count354
+\blx@parenlevel@text=\count355
+\blx@parenlevel@foot=\count356
+\blx@sectionciteorder@0=\count357
+\blx@sectionciteorderinternal@0=\count358
+\blx@entrysetcounter=\count359
+\blx@biblioinstance=\count360
 \labelnumberwidth=\skip57
 \labelalphawidth=\skip58
 \biblabelsep=\skip59
@@ -689,9 +697,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read4
 \blx@bcfout=\write4
 \blx@langwohyphens=\language88
-\c@mincomprange=\count360
-\c@maxcomprange=\count361
-\c@mincompwidth=\count362
+\c@mincomprange=\count361
+\c@maxcomprange=\count362
+\c@mincompwidth=\count363
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -702,74 +710,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count363
-\c@savedafterword=\count364
-\c@annotator=\count365
-\c@savedannotator=\count366
-\c@author=\count367
-\c@savedauthor=\count368
-\c@bookauthor=\count369
-\c@savedbookauthor=\count370
-\c@commentator=\count371
-\c@savedcommentator=\count372
-\c@editor=\count373
-\c@savededitor=\count374
-\c@editora=\count375
-\c@savededitora=\count376
-\c@editorb=\count377
-\c@savededitorb=\count378
-\c@editorc=\count379
-\c@savededitorc=\count380
-\c@foreword=\count381
-\c@savedforeword=\count382
-\c@holder=\count383
-\c@savedholder=\count384
-\c@introduction=\count385
-\c@savedintroduction=\count386
-\c@namea=\count387
-\c@savednamea=\count388
-\c@nameb=\count389
-\c@savednameb=\count390
-\c@namec=\count391
-\c@savednamec=\count392
-\c@translator=\count393
-\c@savedtranslator=\count394
-\c@shortauthor=\count395
-\c@savedshortauthor=\count396
-\c@shorteditor=\count397
-\c@savedshorteditor=\count398
-\c@labelname=\count399
-\c@savedlabelname=\count400
-\c@institution=\count401
-\c@savedinstitution=\count402
-\c@lista=\count403
-\c@savedlista=\count404
-\c@listb=\count405
-\c@savedlistb=\count406
-\c@listc=\count407
-\c@savedlistc=\count408
-\c@listd=\count409
-\c@savedlistd=\count410
-\c@liste=\count411
-\c@savedliste=\count412
-\c@listf=\count413
-\c@savedlistf=\count414
-\c@location=\count415
-\c@savedlocation=\count416
-\c@organization=\count417
-\c@savedorganization=\count418
-\c@origlocation=\count419
-\c@savedoriglocation=\count420
-\c@origpublisher=\count421
-\c@savedorigpublisher=\count422
-\c@publisher=\count423
-\c@savedpublisher=\count424
-\c@language=\count425
-\c@savedlanguage=\count426
-\c@origlanguage=\count427
-\c@savedoriglanguage=\count428
-\c@pageref=\count429
-\c@savedpageref=\count430
+\c@afterword=\count364
+\c@savedafterword=\count365
+\c@annotator=\count366
+\c@savedannotator=\count367
+\c@author=\count368
+\c@savedauthor=\count369
+\c@bookauthor=\count370
+\c@savedbookauthor=\count371
+\c@commentator=\count372
+\c@savedcommentator=\count373
+\c@editor=\count374
+\c@savededitor=\count375
+\c@editora=\count376
+\c@savededitora=\count377
+\c@editorb=\count378
+\c@savededitorb=\count379
+\c@editorc=\count380
+\c@savededitorc=\count381
+\c@foreword=\count382
+\c@savedforeword=\count383
+\c@holder=\count384
+\c@savedholder=\count385
+\c@introduction=\count386
+\c@savedintroduction=\count387
+\c@namea=\count388
+\c@savednamea=\count389
+\c@nameb=\count390
+\c@savednameb=\count391
+\c@namec=\count392
+\c@savednamec=\count393
+\c@translator=\count394
+\c@savedtranslator=\count395
+\c@shortauthor=\count396
+\c@savedshortauthor=\count397
+\c@shorteditor=\count398
+\c@savedshorteditor=\count399
+\c@labelname=\count400
+\c@savedlabelname=\count401
+\c@institution=\count402
+\c@savedinstitution=\count403
+\c@lista=\count404
+\c@savedlista=\count405
+\c@listb=\count406
+\c@savedlistb=\count407
+\c@listc=\count408
+\c@savedlistc=\count409
+\c@listd=\count410
+\c@savedlistd=\count411
+\c@liste=\count412
+\c@savedliste=\count413
+\c@listf=\count414
+\c@savedlistf=\count415
+\c@location=\count416
+\c@savedlocation=\count417
+\c@organization=\count418
+\c@savedorganization=\count419
+\c@origlocation=\count420
+\c@savedoriglocation=\count421
+\c@origpublisher=\count422
+\c@savedorigpublisher=\count423
+\c@publisher=\count424
+\c@savedpublisher=\count425
+\c@language=\count426
+\c@savedlanguage=\count427
+\c@origlanguage=\count428
+\c@savedoriglanguage=\count429
+\c@pageref=\count430
+\c@savedpageref=\count431
 \shorthandwidth=\skip65
 \shortjournalwidth=\skip66
 \shortserieswidth=\skip67
@@ -795,19 +803,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count431
-\c@textcitetotal=\count432
-\c@textcitemaxnames=\count433
-\c@biburlbigbreakpenalty=\count434
-\c@biburlbreakpenalty=\count435
-\c@biburlnumpenalty=\count436
-\c@biburlucpenalty=\count437
-\c@biburllcpenalty=\count438
+\c@textcitecount=\count432
+\c@textcitetotal=\count433
+\c@textcitemaxnames=\count434
+\c@biburlbigbreakpenalty=\count435
+\c@biburlbreakpenalty=\count436
+\c@biburlnumpenalty=\count437
+\c@biburlucpenalty=\count438
+\c@biburllcpenalty=\count439
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count439
+\c@smartand=\count440
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
@@ -819,8 +827,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count440
-\c@bbx:relatedtotal=\count441
+\c@bbx:relatedcount=\count441
+\c@bbx:relatedtotal=\count442
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -849,8 +857,8 @@ Package: expl3 2023-02-22 L3 programming layer (loader)
 
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count442
-\l__pdf_internal_box=\box64
+\l__color_backend_stack_int=\count443
+\l__pdf_internal_box=\box66
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2023-02-22 L3 programming layer (loader) 
@@ -892,24 +900,24 @@ Package csquotes Info: Redefining alias 'default' -> 'USenglish'.
  (./Project.aux)
 \openout1 = `Project.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -977,19 +985,19 @@ LaTeX Font Info:    ... okay on input line 61.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 61.
-Package microtype Info: Applying patch `item' on input line 61.
-Package microtype Info: Applying patch `toc' on input line 61.
-Package microtype Info: Applying patch `eqnum' on input line 61.
-Package microtype Info: Applying patch `footnote' on input line 61.
-Package microtype Info: Applying patch `verbatim' on input line 61.
+LaTeX Info: Redefining \microtypecontext on input line 62.
+Package microtype Info: Applying patch `item' on input line 62.
+Package microtype Info: Applying patch `toc' on input line 62.
+Package microtype Info: Applying patch `eqnum' on input line 62.
+Package microtype Info: Applying patch `footnote' on input line 62.
+Package microtype Info: Applying patch `verbatim' on input line 62.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 61.
+LaTeX Info: Redefining \showhyphens on input line 62.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -998,17 +1006,17 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count443
+\scratchcounter=\count444
 \scratchdimen=\dimen281
-\scratchbox=\box65
-\nofMPsegments=\count444
-\nofMParguments=\count445
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count446
+\scratchbox=\box67
+\nofMPsegments=\count445
+\nofMParguments=\count446
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count447
 \MPscratchDim=\dimen282
-\MPnumerator=\count447
-\makeMPintoPDFobject=\count448
-\everyMPtoPDFconversion=\toks39
+\MPnumerator=\count448
+\makeMPintoPDFobject=\count449
+\everyMPtoPDFconversion=\toks41
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -1026,7 +1034,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 61.
+Package hyperref Info: Link coloring OFF on input line 62.
  (./Project.out) (./Project.out)
 \@outlinefile=\write5
 \openout5 = `Project.out'.
@@ -1065,14 +1073,14 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Project.bbl' found.
  (./Project.bbl)
-Package biblatex Info: Reference section=0 on input line 61.
-Package biblatex Info: Reference segment=0 on input line 61.
+Package biblatex Info: Reference section=0 on input line 62.
+Package biblatex Info: Reference segment=0 on input line 62.
 
 (/usr/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1081,7 +1089,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1091,7 +1099,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
-3.
+4.
 
 (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
@@ -1100,7 +1108,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 66
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 67
 .
 
 (/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
@@ -1111,24 +1119,24 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 78.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 79.
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
@@ -1138,42 +1146,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
 /enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super
 -t1.enc}]
-<../figs/combined.png, id=43, 462.528pt x 346.896pt>
+<../figs/combined.png, id=51, 462.528pt x 346.896pt>
 File: ../figs/combined.png Graphic file (type png)
 <use ../figs/combined.png>
-Package pdftex.def Info: ../figs/combined.png  used on input line 90.
+Package pdftex.def Info: ../figs/combined.png  used on input line 91.
 (pdftex.def)             Requested size: 238.49341pt x 178.8731pt.
- [2 <../figs/combined.png>] (./Project.aux)
+<../figs/fashionmnist.png, id=54, 462.528pt x 346.896pt>
+File: ../figs/fashionmnist.png Graphic file (type png)
+<use ../figs/fashionmnist.png>
+Package pdftex.def Info: ../figs/fashionmnist.png  used on input line 99.
+(pdftex.def)             Requested size: 238.49341pt x 178.8731pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.102 
+       <../figs/combined.png>]
+<../figs/cats_dogs_accuracy.png, id=63, 462.528pt x 346.896pt>
+File: ../figs/cats_dogs_accuracy.png Graphic file (type png)
+<use ../figs/cats_dogs_accuracy.png>
+Package pdftex.def Info: ../figs/cats_dogs_accuracy.png  used on input line 107
+.
+(pdftex.def)             Requested size: 238.49341pt x 178.8731pt.
+ [3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.110 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.110 \newpage
+               <../figs/fashionmnist.png> <../figs/cats_dogs_accuracy.png>]
+[4] (./Project.aux)
 Package rerunfilecheck Info: File `Project.out' has not changed.
-(rerunfilecheck)             Checksum: 07C90A3E86141B32D5053A734676BD07;492.
+(rerunfilecheck)             Checksum: 8A0FC8E4FC4C58F11AFDFF47D24FE40B;783.
 Package logreq Info: Writing requests to 'Project.run.xml'.
 \openout1 = `Project.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32939 strings out of 476025
- 629040 string characters out of 5796533
+ 33103 strings out of 476025
+ 631795 string characters out of 5796533
  1867388 words of memory out of 5000000
- 52765 multiletter control sequences out of 15000+600000
- 550028 words of font info for 139 fonts, out of 8000000 for 9000
+ 52870 multiletter control sequences out of 15000+600000
+ 560290 words of font info for 167 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,8n,104p,1004b,1767s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-pdfTeX warning (dest): name{cite.0@hintonforwardforward} has been referenced bu
-t does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@ko2022coshnet} has been referenced but does 
-not exist, replaced by a fixed one
-
-</usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/tex
-mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/
-urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><
-/usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Project.pdf (2 pages, 115720 bytes).
+</usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/t
+exmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type
+1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
+></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Project.pdf (4 pages, 194885 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 44090 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 119 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
+ 22 named destinations out of 1000 (max. 500000)
+ 52308 words of extra memory for PDF output out of 61914 (max. 10000000)
 
