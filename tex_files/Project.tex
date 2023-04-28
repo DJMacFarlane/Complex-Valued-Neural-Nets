@@ -23,6 +23,7 @@
 \usepackage{url}            % simple URL typesetting
 \usepackage{tikz}
 \usepackage{float}
+\usepackage{hyperref}
 
 
 % I recommend the biblatex package.
@@ -100,13 +101,33 @@ We also tested training on the 2D fourier transform of Fashion MNIST data set \c
   \caption{For complex case we used fourier transform values directly.}
 \end{figure}
 
-\subsection{Dog versus Cat Audio}
+\subsection{Audio}
+\subsubsection{Dog versus Cat Audio}
 After training on images we downloaded a simple dataset of cat sounds vs dog sounds using complex valued outputs of \texttt{tf.signal.stft(waveform)} as inputs to a convolutional neural network.
+
+ Data set here \url{https://www.kaggle.com/datasets/mmoreaux/audio-cats-and-dogs}
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.6\textwidth]{../figs/cats_dogs_accuracy.png}
   \caption{Given the small size of the data set we overfit quickly.}
 \end{figure}
+\subsubsection{Emotion Classification}
+Using a subset of the Toronto emotional speech set \citep{TESS} we trained a complex valued neural network on the spectrogram (complex valued) to categorize audio into classes based on predicted emotion of the speaker.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{../figs/emotion_accuracy.png}
+  \caption{We achieved very quick convergence.}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{../figs/confusion_matrix.png}
+  \title{Confusion Matrix}
+  \caption{The model sometimes confused happy with pleasant surprise.}
+\end{figure}
+
+
 \newpage
 \printbibliography
 \end{document}

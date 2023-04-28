@@ -119,6 +119,49 @@
       \verb 2208.06882
       \endverb
     \endentry
+    \entry{TESS}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0398e67727c846ab564861269c5cda5f}{%
+           family={Pichora-Fuller},
+           familyi={P\bibinithyphendelim F\bibinitperiod},
+           given={M.\bibnamedelimi Kathleen},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd57ea37e5023f469d4ae617a540bddc}{%
+           family={Dupuis},
+           familyi={D\bibinitperiod},
+           given={Kate},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Borealis}%
+      }
+      \strng{namehash}{ca615318144a437f465563a87ea85750}
+      \strng{fullhash}{ca615318144a437f465563a87ea85750}
+      \strng{bibnamehash}{ca615318144a437f465563a87ea85750}
+      \strng{authorbibnamehash}{ca615318144a437f465563a87ea85750}
+      \strng{authornamehash}{ca615318144a437f465563a87ea85750}
+      \strng{authorfullhash}{ca615318144a437f465563a87ea85750}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Toronto emotional speech set (TESS)}}
+      \field{version}{DRAFT VERSION}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.5683/SP2/E8H2MF
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5683/SP2/E8H2MF
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5683/SP2/E8H2MF
+      \endverb
+    \endentry
     \entry{fashionmnist}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=1af11a48cd2fa4be0cc93269e719b54c}{%

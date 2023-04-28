@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.7)  28 APR 2023 00:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.7)  28 APR 2023 01:22
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -900,24 +900,24 @@ Package csquotes Info: Redefining alias 'default' -> 'USenglish'.
  (./Project.aux)
 \openout1 = `Project.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -985,19 +985,19 @@ LaTeX Font Info:    ... okay on input line 62.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 62.
-Package microtype Info: Applying patch `item' on input line 62.
-Package microtype Info: Applying patch `toc' on input line 62.
-Package microtype Info: Applying patch `eqnum' on input line 62.
-Package microtype Info: Applying patch `footnote' on input line 62.
-Package microtype Info: Applying patch `verbatim' on input line 62.
+LaTeX Info: Redefining \microtypecontext on input line 63.
+Package microtype Info: Applying patch `item' on input line 63.
+Package microtype Info: Applying patch `toc' on input line 63.
+Package microtype Info: Applying patch `eqnum' on input line 63.
+Package microtype Info: Applying patch `footnote' on input line 63.
+Package microtype Info: Applying patch `verbatim' on input line 63.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 62.
+LaTeX Info: Redefining \showhyphens on input line 63.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1034,7 +1034,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 62.
+Package hyperref Info: Link coloring OFF on input line 63.
  (./Project.out) (./Project.out)
 \@outlinefile=\write5
 \openout5 = `Project.out'.
@@ -1073,14 +1073,14 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Project.bbl' found.
  (./Project.bbl)
-Package biblatex Info: Reference section=0 on input line 62.
-Package biblatex Info: Reference segment=0 on input line 62.
+Package biblatex Info: Reference section=0 on input line 63.
+Package biblatex Info: Reference segment=0 on input line 63.
 
 (/usr/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1089,7 +1089,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1099,7 +1099,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
-4.
+5.
 
 (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
@@ -1108,7 +1108,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 67
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 68
 .
 
 (/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
@@ -1119,24 +1119,24 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 79.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 80.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
@@ -1146,15 +1146,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
 /enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super
 -t1.enc}]
-<../figs/combined.png, id=51, 462.528pt x 346.896pt>
+<../figs/combined.png, id=59, 462.528pt x 346.896pt>
 File: ../figs/combined.png Graphic file (type png)
 <use ../figs/combined.png>
-Package pdftex.def Info: ../figs/combined.png  used on input line 91.
+Package pdftex.def Info: ../figs/combined.png  used on input line 92.
 (pdftex.def)             Requested size: 238.49341pt x 178.8731pt.
-<../figs/fashionmnist.png, id=54, 462.528pt x 346.896pt>
+<../figs/fashionmnist.png, id=62, 462.528pt x 346.896pt>
 File: ../figs/fashionmnist.png Graphic file (type png)
 <use ../figs/fashionmnist.png>
-Package pdftex.def Info: ../figs/fashionmnist.png  used on input line 99.
+Package pdftex.def Info: ../figs/fashionmnist.png  used on input line 100.
 (pdftex.def)             Requested size: 238.49341pt x 178.8731pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1164,51 +1164,84 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.102 
+l.103 
        <../figs/combined.png>]
-<../figs/cats_dogs_accuracy.png, id=63, 462.528pt x 346.896pt>
+<../figs/cats_dogs_accuracy.png, id=72, 462.528pt x 346.896pt>
 File: ../figs/cats_dogs_accuracy.png Graphic file (type png)
 <use ../figs/cats_dogs_accuracy.png>
-Package pdftex.def Info: ../figs/cats_dogs_accuracy.png  used on input line 107
+Package pdftex.def Info: ../figs/cats_dogs_accuracy.png  used on input line 111
 .
 (pdftex.def)             Requested size: 238.49341pt x 178.8731pt.
+<../figs/emotion_accuracy.png, id=74, 462.528pt x 346.896pt>
+File: ../figs/emotion_accuracy.png Graphic file (type png)
+<use ../figs/emotion_accuracy.png>
+Package pdftex.def Info: ../figs/emotion_accuracy.png  used on input line 119.
+(pdftex.def)             Requested size: 238.49341pt x 178.8731pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.110 \newpage
-              
+l.122 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.110 \newpage
-               <../figs/fashionmnist.png> <../figs/cats_dogs_accuracy.png>]
-[4] (./Project.aux)
+l.122 
+       <../figs/fashionmnist.png> <../figs/cats_dogs_accuracy.png>]
+<../figs/confusion_matrix.png, id=84, 722.7pt x 578.16pt>
+File: ../figs/confusion_matrix.png Graphic file (type png)
+<use ../figs/confusion_matrix.png>
+Package pdftex.def Info: ../figs/confusion_matrix.png  used on input line 125.
+(pdftex.def)             Requested size: 238.49341pt x 190.79338pt.
+ [4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.131 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.131 \newpage
+               <../figs/emotion_accuracy.png> <../figs/confusion_matrix.png>]
+[5] (./Project.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `Project.out' has not changed.
-(rerunfilecheck)             Checksum: 8A0FC8E4FC4C58F11AFDFF47D24FE40B;783.
+(rerunfilecheck)             Checksum: A0FFD1A37731A224733BFD575EEB2399;1055.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'Project.run.xml'.
 \openout1 = `Project.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33103 strings out of 476025
- 631795 string characters out of 5796533
+ 33141 strings out of 476025
+ 632583 string characters out of 5796533
  1867388 words of memory out of 5000000
- 52870 multiletter control sequences out of 15000+600000
- 560290 words of font info for 167 fonts, out of 8000000 for 9000
+ 52891 multiletter control sequences out of 15000+600000
+ 560798 words of font info for 174 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,8n,104p,1004b,1767s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,8n,104p,1004b,1768s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/t
 exmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type
 1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
 ></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on Project.pdf (4 pages, 194885 bytes).
+Output written on Project.pdf (5 pages, 250485 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
- 22 named destinations out of 1000 (max. 500000)
- 52308 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 146 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 52334 words of extra memory for PDF output out of 61914 (max. 10000000)
 

@@ -1,16 +1,17 @@
 # adapted from https://www.tensorflow.org/tutorials/audio/simple_audio
 import tensorflow as tf
-import complexnn
-import complexactivations as ca
+import CVNN.complexnn as complexnn
+import CVNN.complexactivations as ca
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 # Load cats and dogs dataset
-train_ds, val_ds = tf.keras.utils.audio_dataset_from_directory("cats_dogs/train/",
+train_ds, val_ds = tf.keras.utils.audio_dataset_from_directory("emotions/Sub/",
                                                     labels='inferred',
                                                     batch_size=10,
-                                                    validation_split=0.4,
+                                                    validation_split=0.2,
                                                     seed=0,
                                                     subset='both')
 
@@ -24,8 +25,8 @@ train_ds = train_ds.map(squeeze, tf.data.AUTOTUNE)
 val_ds = val_ds.map(squeeze, tf.data.AUTOTUNE)
 
 # Create Test Set
-# test_ds = val_ds.shard(num_shards=2, index=0)
-# val_ds = val_ds.shard(num_shards=2, index=1)
+test_ds = val_ds.shard(num_shards=2, index=0)
+val_ds = val_ds.shard(num_shards=2, index=1)
 
 
 def get_spectrogram(waveform):
@@ -41,10 +42,10 @@ def spectrogram(ds):
 
 train_spectrogram_ds = spectrogram(train_ds)
 val_spectrogram_ds = spectrogram(val_ds)
-# test_spectrogram_ds = spectrogram(test_ds)
+test_spectrogram_ds = spectrogram(test_ds)
 
-train_spectrogram_ds = train_spectrogram_ds.cache().shuffle(50).prefetch(tf.data.AUTOTUNE)
-val_spectrogram_ds = val_spectrogram_ds.cache().prefetch(tf.data.AUTOTUNE)
+# train_spectrogram_ds = train_spectrogram_ds.take(100).cache().prefetch(tf.data.AUTOTUNE)
+# val_spectrogram_ds = val_spectrogram_ds.cache().prefetch(tf.data.AUTOTUNE)
 # test_spectrogram_ds = test_spectrogram_ds.cache().prefetch(tf.data.AUTOTUNE)
 
 for example_spectrograms, example_spect_labels in train_spectrogram_ds.take(1):
@@ -59,7 +60,6 @@ model = tf.keras.Sequential([
     tf.keras.layers.Input(shape=input_shape),
     tf.keras.layers.Resizing(64, 64),
     complexnn.ComplexConv2D(8, kernel_size=(4, 4), activation=ca.cmplx_crelu),
-    complexnn.ComplexAvgPool2D(pool_size=(2, 2)),
     complexnn.ComplexDropout(0.3),
     tf.keras.layers.Flatten(),
     complexnn.ComplexDense(32, activation=ca.cmplx_crelu),
@@ -86,11 +86,23 @@ history = model.fit(
 # Plot Training and Validation Accuracy
 plt.plot(history.history['accuracy'])
 plt.plot(history.history['val_accuracy'])
-plt.title('Cats vs Dogs Accuracy')
-plt.xlabel('Epoch')
+plt.title('Emotion Classification Accuracy')
 plt.ylabel('Accuracy')
-plt.legend(['train', 'val'], loc='upper left')
-plt.savefig('./figs/cats_dogs_accuracy.png')
+plt.xlabel('Epoch')
+plt.legend(['Train', 'Val'], loc='upper left')
+plt.savefig('./figs/emotion_accuracy.png')
 
+y_pred = model.predict(test_spectrogram_ds)
+y_pred = tf.argmax(y_pred, axis=1)
+y_true = tf.concat(list(test_spectrogram_ds.map(lambda s,lab: lab)), axis=0)
+confusion_mtx = tf.math.confusion_matrix(y_true, y_pred)
+plt.figure(figsize=(10, 8))
+sns.heatmap(confusion_mtx,
+            xticklabels=label_names,
+            yticklabels=label_names,
+            annot=True, fmt='g')
+plt.xlabel('Prediction')
+plt.ylabel('Label')
+plt.savefig('./figs/confusion_matrix.png')
 
 
